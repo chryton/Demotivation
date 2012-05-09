@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3FD4237155B288000FA9A6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3FD4235155B288000FA9A6D /* InfoPlist.strings */; };
+		E3FD4239155B288000FA9A6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FD4238155B288000FA9A6D /* main.m */; };
+		E3FD423D155B288000FA9A6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FD423C155B288000FA9A6D /* AppDelegate.m */; };
+		E3FD4240155B288000FA9A6D /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = E3FD423F155B288000FA9A6D /* main.html */; };
+		E3FD4242155B288000FA9A6D /* NKit.js in Resources */ = {isa = PBXBuildFile; fileRef = E3FD4241155B288000FA9A6D /* NKit.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3FD422F155B288000FA9A6D /* Demotivation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demotivation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FD4234155B288000FA9A6D /* Demotivation-Info.plist */ = {isa = PBXFileReference; path = "Demotivation-Info.plist"; sourceTree = "<group>"; };
+		E3FD4236155B288000FA9A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3FD4238155B288000FA9A6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3FD423A155B288000FA9A6D /* Demotivation-Prefix.pch */ = {isa = PBXFileReference; path = "Demotivation-Prefix.pch"; sourceTree = "<group>"; };
+		E3FD423B155B288000FA9A6D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3FD423C155B288000FA9A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3FD423F155B288000FA9A6D /* main.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = main.html; path = HTML/main.html; sourceTree = "<group>"; };
+		E3FD4241155B288000FA9A6D /* NKit.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = NKit.js; path = /Library/Frameworks/NimbleKit/NKit.js; sourceTree = "<absolute>"; };
+		E3FD4243155B288000FA9A6D /* NKit.xcconfig */ = {isa = PBXFileReference; name = NKit.xcconfig; path = /Library/Frameworks/NimbleKit/NKit.xcconfig; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3FD422C155B288000FA9A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3FD4224155B287F00FA9A6D = {
+			isa = PBXGroup;
+			children = (
+				E3FD4232155B288000FA9A6D /* Demotivation */,
+				E3FD4230155B288000FA9A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3FD4230155B288000FA9A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3FD422F155B288000FA9A6D /* Demotivation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3FD4232155B288000FA9A6D /* Demotivation */ = {
+			isa = PBXGroup;
+			children = (
+				E3FD423B155B288000FA9A6D /* AppDelegate.h */,
+				E3FD423C155B288000FA9A6D /* AppDelegate.m */,
+				E3FD423E155B288000FA9A6D /* HTML */,
+				E3FD4233155B288000FA9A6D /* Supporting Files */,
+			);
+			path = Demotivation;
+			sourceTree = "<group>";
+		};
+		E3FD4233155B288000FA9A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3FD4234155B288000FA9A6D /* Demotivation-Info.plist */,
+				E3FD4235155B288000FA9A6D /* InfoPlist.strings */,
+				E3FD4238155B288000FA9A6D /* main.m */,
+				E3FD423A155B288000FA9A6D /* Demotivation-Prefix.pch */,
+				E3FD4241155B288000FA9A6D /* NKit.js */,
+				E3FD4243155B288000FA9A6D /* NKit.xcconfig */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3FD423E155B288000FA9A6D /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				E3FD423F155B288000FA9A6D /* main.html */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3FD422E155B288000FA9A6D /* Demotivation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FD4246155B288000FA9A6D /* Build configuration list for PBXNativeTarget "Demotivation" */;
+			buildPhases = (
+				E3FD422B155B288000FA9A6D /* Sources */,
+				E3FD422C155B288000FA9A6D /* Frameworks */,
+				E3FD422D155B288000FA9A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demotivation;
+			productName = Demotivation;
+			productReference = E3FD422F155B288000FA9A6D /* Demotivation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3FD4226155B287F00FA9A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E3FD4229155B287F00FA9A6D /* Build configuration list for PBXProject "Demotivation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3FD4224155B287F00FA9A6D;
+			productRefGroup = E3FD4230155B288000FA9A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3FD422E155B288000FA9A6D /* Demotivation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3FD422D155B288000FA9A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FD4237155B288000FA9A6D /* InfoPlist.strings in Resources */,
+				E3FD4240155B288000FA9A6D /* main.html in Resources */,
+				E3FD4242155B288000FA9A6D /* NKit.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3FD422B155B288000FA9A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FD4239155B288000FA9A6D /* main.m in Sources */,
+				E3FD423D155B288000FA9A6D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3FD4235155B288000FA9A6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3FD4236155B288000FA9A6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3FD4244155B288000FA9A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FD4243155B288000FA9A6D /* NKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3FD4245155B288000FA9A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FD4243155B288000FA9A6D /* NKit.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3FD4247155B288000FA9A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demotivation/Demotivation-Prefix.pch";
+				INFOPLIST_FILE = "Demotivation/Demotivation-Info.plist";
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Library/Frameworks/NimbleKit/;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3FD4248155B288000FA9A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demotivation/Demotivation-Prefix.pch";
+				INFOPLIST_FILE = "Demotivation/Demotivation-Info.plist";
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = /Library/Frameworks/NimbleKit/;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3FD4229155B287F00FA9A6D /* Build configuration list for PBXProject "Demotivation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FD4244155B288000FA9A6D /* Debug */,
+				E3FD4245155B288000FA9A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FD4246155B288000FA9A6D /* Build configuration list for PBXNativeTarget "Demotivation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FD4247155B288000FA9A6D /* Debug */,
+				E3FD4248155B288000FA9A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3FD4226155B287F00FA9A6D /* Project object */;
+}
