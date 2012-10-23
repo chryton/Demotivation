@@ -1,15 +1,48 @@
 <html>
 <head>
-<meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no" />
+<meta name = "viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <script type="text/javascript" src="NKit.js"></script>
+   
+    <script type="text/javascript">
+        var navController = new NKNavigationController();
+        navController.setTitle("Demotivation");
+        navController.setTintColor(100, 100, 100);
+        </script>
+    
+    <link rel="stylesheet" href="jqmobile/demotivation.min.css" />
+    <link rel="stylesheet" href="jqmobile/jquery.mobile.structure-1.1.0.min.css" />
+     
+    <script src="jqmobile/jquery-1.7.2.min.js"></script>
+    <script src="jqmobile/jquery.mobile-1.1.0.min.js"></script>
+    
+ 
+    
 </head>
 <body>
+<div data-role="page" data-theme="a">
+<p>Sometimes you just need a bit of demotivaiton to get motivated. Here are some handpicked demotivational posters that are sure to instill new lows of morale and increases in productivity.</p>
+<p>And remember, the beatings will continue until morale improves!</p>
+<br />
 
-<p>NimbleKit is an SDK which allows developers quickly and easy create full featured iOS applications using just HTML and Javascript</p>
+   
+   <ul data-role="listview">
+    <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/droids.jpeg')">What You Are Looking For</a></li>
+    <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/ambitiondemotivator.jpeg')">Ambition</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/cluelessnessdemotivator.jpeg')">Cluelessness</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/unemployment.jpeg')">Unemployment</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/Demotivational_posters.png')">Posters</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/demotivationdemotivator.jpeg')">Demotivation</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/envy.jpeg')">Envy</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/fatherhood.jpeg')">Fatherhood</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/moon.jpeg')">Wild Guesses</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/gettoworkdemotivator.jpeg')">Get To Work</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/idiocydemotivator.jpeg')">Idiocy</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/motivationdemotivator.jpeg')">Motivation</a></li>
+       <li><a href="#" data-icon="arrow-r" data-iconpos="right" data-mini="true" data-inline="true" onClick="navController.gotoPage('pictures/overconfidence.jpeg')">Overconfidence</a></li>
+    </ul>
 
-<i>Tip:</i><br>
-Start developing your application from main.html file included in project
-
+   
+    </div>
 </body>
 </html>

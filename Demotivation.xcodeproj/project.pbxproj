@@ -12,19 +12,35 @@
 		E3FD423D155B288000FA9A6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FD423C155B288000FA9A6D /* AppDelegate.m */; };
 		E3FD4240155B288000FA9A6D /* main.html in Resources */ = {isa = PBXBuildFile; fileRef = E3FD423F155B288000FA9A6D /* main.html */; };
 		E3FD4242155B288000FA9A6D /* NKit.js in Resources */ = {isa = PBXBuildFile; fileRef = E3FD4241155B288000FA9A6D /* NKit.js */; };
+		E3FD424A155B34E100FA9A6D /* pictures in Resources */ = {isa = PBXBuildFile; fileRef = E3FD4249155B34E100FA9A6D /* pictures */; };
+		E3FD424C155B353500FA9A6D /* dem1.html in Resources */ = {isa = PBXBuildFile; fileRef = E3FD424B155B353500FA9A6D /* dem1.html */; };
+		E3FD424E155B382100FA9A6D /* jqmobile in Resources */ = {isa = PBXBuildFile; fileRef = E3FD424D155B382100FA9A6D /* jqmobile */; };
+		E3FD4254155B43BD00FA9A6D /* dretina.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FD4253155B43BD00FA9A6D /* dretina.png */; };
+		E3FD4256155B43D700FA9A6D /* dnonretina.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FD4255155B43D700FA9A6D /* dnonretina.png */; };
+		E3FD4258155B461B00FA9A6D /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FD4257155B461B00FA9A6D /* Default-Portrait~ipad.png */; };
+		E3FD425A155B461E00FA9A6D /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E3FD4259155B461E00FA9A6D /* Default-Portrait@2x~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3FD422F155B288000FA9A6D /* Demotivation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demotivation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3FD4234155B288000FA9A6D /* Demotivation-Info.plist */ = {isa = PBXFileReference; path = "Demotivation-Info.plist"; sourceTree = "<group>"; };
+		E3FD4234155B288000FA9A6D /* Demotivation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demotivation-Info.plist"; sourceTree = "<group>"; };
 		E3FD4236155B288000FA9A6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3FD4238155B288000FA9A6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E3FD423A155B288000FA9A6D /* Demotivation-Prefix.pch */ = {isa = PBXFileReference; path = "Demotivation-Prefix.pch"; sourceTree = "<group>"; };
-		E3FD423B155B288000FA9A6D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3FD423A155B288000FA9A6D /* Demotivation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demotivation-Prefix.pch"; sourceTree = "<group>"; };
+		E3FD423B155B288000FA9A6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3FD423C155B288000FA9A6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E3FD423F155B288000FA9A6D /* main.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = main.html; path = HTML/main.html; sourceTree = "<group>"; };
 		E3FD4241155B288000FA9A6D /* NKit.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = NKit.js; path = /Library/Frameworks/NimbleKit/NKit.js; sourceTree = "<absolute>"; };
-		E3FD4243155B288000FA9A6D /* NKit.xcconfig */ = {isa = PBXFileReference; name = NKit.xcconfig; path = /Library/Frameworks/NimbleKit/NKit.xcconfig; sourceTree = "<absolute>"; };
+		E3FD4243155B288000FA9A6D /* NKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = NKit.xcconfig; path = /Library/Frameworks/NimbleKit/NKit.xcconfig; sourceTree = "<absolute>"; };
+		E3FD4249155B34E100FA9A6D /* pictures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pictures; path = HTML/pictures; sourceTree = "<group>"; };
+		E3FD424B155B353500FA9A6D /* dem1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = dem1.html; path = HTML/dem1.html; sourceTree = "<group>"; };
+		E3FD424D155B382100FA9A6D /* jqmobile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = jqmobile; path = HTML/jqmobile; sourceTree = "<group>"; };
+		E3FD4253155B43BD00FA9A6D /* dretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dretina.png; sourceTree = "<group>"; };
+		E3FD4255155B43D700FA9A6D /* dnonretina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dnonretina.png; sourceTree = "<group>"; };
+		E3FD4257155B461B00FA9A6D /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		E3FD4259155B461E00FA9A6D /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		E3FD425B155B46B300FA9A6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E3FD425D155B46BD00FA9A6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +57,12 @@
 		E3FD4224155B287F00FA9A6D = {
 			isa = PBXGroup;
 			children = (
+				E3FD425D155B46BD00FA9A6D /* Default@2x.png */,
+				E3FD425B155B46B300FA9A6D /* Default.png */,
+				E3FD4259155B461E00FA9A6D /* Default-Portrait@2x~ipad.png */,
+				E3FD4257155B461B00FA9A6D /* Default-Portrait~ipad.png */,
+				E3FD4255155B43D700FA9A6D /* dnonretina.png */,
+				E3FD4253155B43BD00FA9A6D /* dretina.png */,
 				E3FD4232155B288000FA9A6D /* Demotivation */,
 				E3FD4230155B288000FA9A6D /* Products */,
 			);
@@ -81,6 +103,9 @@
 		E3FD423E155B288000FA9A6D /* HTML */ = {
 			isa = PBXGroup;
 			children = (
+				E3FD424D155B382100FA9A6D /* jqmobile */,
+				E3FD424B155B353500FA9A6D /* dem1.html */,
+				E3FD4249155B34E100FA9A6D /* pictures */,
 				E3FD423F155B288000FA9A6D /* main.html */,
 			);
 			name = HTML;
@@ -139,6 +164,13 @@
 				E3FD4237155B288000FA9A6D /* InfoPlist.strings in Resources */,
 				E3FD4240155B288000FA9A6D /* main.html in Resources */,
 				E3FD4242155B288000FA9A6D /* NKit.js in Resources */,
+				E3FD424A155B34E100FA9A6D /* pictures in Resources */,
+				E3FD424C155B353500FA9A6D /* dem1.html in Resources */,
+				E3FD424E155B382100FA9A6D /* jqmobile in Resources */,
+				E3FD4254155B43BD00FA9A6D /* dretina.png in Resources */,
+				E3FD4256155B43D700FA9A6D /* dnonretina.png in Resources */,
+				E3FD4258155B461B00FA9A6D /* Default-Portrait~ipad.png in Resources */,
+				E3FD425A155B461E00FA9A6D /* Default-Portrait@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

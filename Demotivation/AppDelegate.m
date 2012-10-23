@@ -29,7 +29,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     extern BOOL _mainWebViewLoaded;
-    Nimble *nimble = [[Nimble alloc] initWithRootPage:@"main.html" window:self.window serial:@""];
+    Nimble *nimble = [[Nimble alloc] initWithRootPage:@"main.html" window:self.window serial:@"4B20-1064-BB6B-D6A3"];
     [nimble release];
     [self.window makeKeyAndVisible];
     while (!_mainWebViewLoaded)
